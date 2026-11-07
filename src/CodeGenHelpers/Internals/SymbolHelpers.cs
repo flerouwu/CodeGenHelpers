@@ -10,7 +10,7 @@ using Microsoft.CodeAnalysis;
 #nullable enable
 namespace CodeGenHelpers.Internals
 {
-    internal static class SymbolHelpers
+    public static class SymbolHelpers
     {
         private static readonly Dictionary<string, string> _fullNamesMaping = new Dictionary<string, string>
             (StringComparer.OrdinalIgnoreCase)
